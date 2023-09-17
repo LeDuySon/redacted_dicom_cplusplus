@@ -773,13 +773,6 @@ void *ReadFilesThread(void *voidparams)
     {
       std::cout << "Caught exception \"" << ex.what() << "\"\n";
     }
-
-    // release resources
-    // delete[] buffer;
-    // pixDestroy(&pixs);
-    // pixDestroy(&invertedPix);
-    // pixDestroy(&pixWithPadding);
-
   }
   return voidparams;
 }

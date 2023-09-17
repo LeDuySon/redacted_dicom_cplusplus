@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/rewritepixel.dir/rewritepixel.cxx.o  -o rewritepixel -Wl,-rpath,/root/RewritePixel/gdcm-build/bin gdcm-build/bin/libgdcmCommon.so gdcm-build/bin/libgdcmIOD.so gdcm-build/bin/libgdcmMSFF.so gdcm-build/bin/libgdcmDICT.so gdcm-build/bin/libgdcmDSED.so -lxml2 -ljpeg -lz -lexslt -ltesseract -llept -ltesseract -llept -lpthread 
